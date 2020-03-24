@@ -1,7 +1,7 @@
 # CS50 🕹
 <img src="https://www.edx.org/sites/default/files/course/image/featured-card/cs50.jpg" width="350">
 
-> Instructor: David.J.Malan 🕵  
+> Instructor: David J.Malan 🕵  
 > By: Havard University through Edx 🌏
 
 This folder saves lecture code, homework code, project code in CS50.  
