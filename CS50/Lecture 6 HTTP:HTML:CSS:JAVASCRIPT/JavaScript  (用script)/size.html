@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            size
+        </title>
+    </head>
+    <body>
+        <p>
+            ABC
+        </p>
+
+        <select>
+            <option value="xx-large">xx-large</option>
+            <option value="x-large">x-large</option>
+            <option value="large">large</option>
+            <option selected value="initial">initial</option>
+            <option value="small">small</option>
+            <option value="x-small">x-small</option>
+            <option value="xx-small">xx-small</option>
+        </select>
+
+        <script>
+            document.querySelector('select').onchange = function()
+            {
+                document.querySelector('body').style.fontSize = this.value;
+            }
+        </script>
+
+        <!--onchange指选择了这个就改变XXXX-->
+        <!--this.value指选择了哪个fontSize，就取哪个的值-->
+        <!--fontSize没有短横线是因为JavaScript会误认为减号，所以直接把首字母S大写-->
+
+    </body>
+</html>
+

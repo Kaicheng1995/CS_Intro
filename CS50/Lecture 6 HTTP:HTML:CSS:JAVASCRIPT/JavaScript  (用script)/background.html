@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            background
+        </title>
+    </head>
+    <body>
+        <button id="red">R</button>
+        <button id="green">G</button>
+        <button id="blue">B</button>
+        <!--创建button-->
+
+        <script>
+        let body = document.querySelector('body');
+
+        document.querySelector('#red').onclick = function()
+        {
+            body.style.backgroundColor = 'red';
+        }
+        document.querySelector('#green').onclick = function()
+        {
+            body.style.backgroundColor = 'green';
+        }
+        document.querySelector('#blue').onclick = function()
+        {
+            body.style.backgroundColor = 'blue';
+        }
+        </script>
+
+        <!--选择body的目的是为了定义改变颜色的funtion时，调用body.style-->
+        <!--#red是前面创建的button，onclick指点击button，=符号指点击后就会出现的事-->
+        <!--改变背景色的自定义函数-->
+        <!--body前不加#号的原因是，body本身就代表主干，不需要被定义-->
+    </body>
+</html>
+

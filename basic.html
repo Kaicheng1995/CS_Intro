@@ -1,0 +1,80 @@
+<!-- RESOURCE -->
+w3schools.com
+
+
+
+<!-- BASIC SYNTAX -->
+<!DOCTYPE html>    <!-- means use html5 -->
+<html> 
+	<head>
+		<title>My first website</title>
+	</head>
+	<body>
+		hello there!
+		<p>L</p>
+	</body>
+</html>
+
+
+
+
+
+<!-- TAGS 
+1. h1,2,3
+2. p
+3. strong
+4. ol, ul
+5. br, hr
+6. img
+7. a
+8. form
+	- type :text, email, date, password, radio, checkbox, submit,required
+	- name :query string to store input value
+	- value: used differently for different input types:
+				- For "button", "reset", and "submit" - it defines the text on the button
+				- For "text", "password", and "hidden" - it defines the initial (default) value of the input field
+				- For "checkbox", "radio", "image" - it defines the value associated with the input (this is also the value that is sent on submit)
+	- select
+9. div, span
+-->
+<h1>header</h1>       
+<p>paragraph</p>  
+<strong>bold</strong>
+<em>emphasis</em>
+<ol>
+	<li>ordered list 1</li>
+	<li>ordered list 2</li>
+	<li>ordered list 3</li>
+</ol>
+<ul>
+	<li>unordered list 1</li>
+	<li>unordered list 2</li>
+	<li>unordered list 3</li>
+</ul>
+<br>   <!-- self-closing tag: break -->
+<hr>   <!-- self-closing tag: horizontal -->
+<img src="" width="" height="">
+<a href="">It's anchor tag</a>
+<form>
+	First Name: <input type="text" name="firstname">
+	Last Name: <input type="text">
+	Email: <input type="email" name="email" required>
+	Birthday: <input type="date" name="birthday">
+	Password: <input type="Password" name="password" min="5">
+	Gender: 
+	<input type="radio" name="Gender" value="Male">Male
+	<input type="radio" name="Gender" value="Female">Female
+	<input type="radio" name="Gender" value="Other">Other
+	Pets:
+	<input type="checkbox" name="cat"> Cat
+	<input type="checkbox" name="dog"> Dog
+	Cars:
+	<select name="Cars">
+		<option value="volvo">Volvo</option>
+		<option value="audi">Adui</option>
+	</select>
+	<input type="submit" value="Register">
+	<input type="reset">
+</form>
+<div>division</div>
+<span>in-line block</span>

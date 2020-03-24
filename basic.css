@@ -1,0 +1,127 @@
+[Cascading Style Sheet]
+cascading means using the lasted one.
+
+
+
+/* RESOURCE */
+1. CSS Tricks - Almanac
+2. Paletton (for color)
+3. w3school
+4. specificity calculator
+5. Goggle fonts
+6. CSS minify
+7. CSS Browser Support Reference
+8. CAN I USE
+9. Template :
+		creative tim - template
+		animate css
+		mashup template
+		bootstrap template
+10. Grid Cheatsheet : http://grid.malven.co/ 
+
+
+/* HTML LINK */
+<link rel="stylesheet" type="text/css" href=""> - import css file
+<link href="" rel="stylesheet"> - import externel fonts
+
+
+/* INSPECT */
+write click inspect and see its CSS on website
+
+
+/* BASIC SYNTAX */
+Selector {
+	Property: value;
+}
+
+
+/* PROPERTY */
+/* 短横线代表大类中的某个子类*/
+selector {
+	color: red;
+	color: rgb(255,255,255);
+	color: rgba(255,255,255,0.5);
+	color: #FFFFFF;
+	text-align: center;
+	border: 5px dashed purple;
+	background-image: url(untitled.jpg);
+	background-size: cover;
+	list-style: none;
+	cursor: pointer;
+	display: inline-block;
+}
+
+
+/* SELECTOR */
+.class   
+/* class="untitled" in html, .untitle{} in CSS */
+#id
+/* id="div1" in html, #div1{} in CSS */
+*
+/* select everthing */
+element
+element, element
+element element
+/* select all the right element inside the left element */
+element > element
+/* select the right element that has the parent of the left element, very close */
+element + element
+/* select the right element that is right after the left element */
+:hovor
+/* especially for buttons */
+:last-child
+:first-child
+/* select of last and first item of a selector */
+!important
+/* break the rule of cascading */
+
+
+/* FACTORS WINNING OUT IN SELECTORS */
+1. specificity (see resource)
+2. importance
+3. source file order
+
+
+/* TEXT AND FONT*/
+p {
+	text-decoration: line-through;
+	text-transform: uppercase;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: "Times New Roman", Georgia;
+
+	font-size: 2em; /* relative to nearby font size */
+	font-size: 2rem; /* relative to default font size */
+
+}
+
+
+/* IMAGE */
+img {
+	float: left;
+}
+
+
+/* BOX MODEL */
+content
+padding
+border
+margin
+
+.boxmodel {
+	width: 10px;  /* content */
+	height: 10px;  /* content */
+	padding: 5px 20px 5px 20px; /* top, right, bottom, left */
+	border: 5px solid red;
+	margin: 0px 20px; /* top & bottom, left and right */
+}
+
+
+
+/* CASE 1 LIFE IN THE WILD */
+1. flexbox
+2. hovor
+3. -webkit
+4. responsive UI

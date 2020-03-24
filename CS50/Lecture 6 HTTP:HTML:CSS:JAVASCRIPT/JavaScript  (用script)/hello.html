@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script>
+            function greet()
+            {
+                let name = document.querySelector('#name').value;
+                alert('hello,' + name);
+            }
+        </script>
+
+        <!--自定义函数，都叫做function，alert指弹窗-->
+        <!--定义变量都用let，querySelector是选择器，加上#代表不是一个tag-->
+        <!--document指整个页面，querySelector是其中的一个函数-->
+        <!--value代表store value，选择好了要把值存下来-->
+
+        <title>
+            hello0
+        </title>
+    </head>
+    <body>
+        <form onsubmit="greet(); return false;">
+            <input autocomplete="off" autofocus id="name" type="text">
+            <input type="submit">
+        </form>
+    </body>
+</html>
+
+
+        <!--onsubmit指提交之后的有动作，这里的id随便取的名字-->
+        <!--autocomplete自动填充，autofocus自动选中-->

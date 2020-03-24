@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <ul>                                 <!--unordered list-->
+        {% for student in students %}    <!--jinja可以使用类似python的for-->
+            <li>{{ student }}</li>       <!--list-->  <!--student是变量-->
+        {% endfor%}
+    </ul>
+{% endblock %}
