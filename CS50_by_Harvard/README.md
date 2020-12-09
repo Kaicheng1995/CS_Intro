@@ -7,7 +7,7 @@
 
 
 
-This folder saves lecture code, homework code, project code in CS50.  
+This folder saves lecture code, homework code, project code in [CS50](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/).  
 Below is the main content of the course concluded by me after I finished the course on Edx.
 
 ## Computer Basics
