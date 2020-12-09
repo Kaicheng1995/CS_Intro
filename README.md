@@ -1,4 +1,4 @@
-# Languages-Library
+# CS Intro Courses - Study Notes
 Here saves study notes, homework and course projects in the following CS intro online courses.  
 
 * [CS50's Introduction to Computer Science](https://github.com/Kaicheng1995/CS_Intro/tree/master/CS50_by_Harvard)
