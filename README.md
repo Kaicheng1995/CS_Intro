@@ -9,3 +9,6 @@ Here saves study notes, homework and course projects in the following CS intro o
 * [Data Structures](https://github.com/Kaicheng1995/DataStructures)
 * [Machine Learning Foundations](https://www.coursera.org/learn/ml-foundations)
 
+<img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/CS50.png" width="290"> <img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/ML.jpeg" width="330"><img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/CV.png" width="305">
+
+<img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/Web.png" width="330"> <img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/React.jpg" width="330"> <img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/ML WU.png" width="280">
