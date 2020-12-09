@@ -1,18 +1,11 @@
 # Languages-Library
 Here saves codes learnt in different languages.  
 
-### `Python` `Java` `JavaScript` `HTML` `CSS` `C` `R` `SQL`  
-
-  
-  
-#### ***`/Bootstrap`***  ***`/React`***  ***`/Node`***
-  
-  ___
+** `Python` `Java` `JavaScript` `HTML` `CSS` `C` `R` `SQL`  
 
 
-### CATALOGUE
-* **Python**
-* **Java** `basic.java` `dog.java`
+### Programming Languages
+* **Java** `syntax.java`
 ```diff
 * Variable - Types - Reference Variable Declaration
 * Define Functions 
@@ -26,7 +19,7 @@ Here saves codes learnt in different languages.
 * PUBLIC & PRIVATE & NESTED CLASS (see DataStructure Repo)
 * Memory
 ```
-* **JavaScript** `basic.js` `React.js` `Node.js`
+* **JavaScript** `syntax.js` `React.js` `Node.js`
 ```diff
 * Variable - Types
 * Define Functions  
@@ -51,12 +44,12 @@ Here saves codes learnt in different languages.
 + REACT - REDUX
 + NODE
 ```
-* **HTML** `basic.html`
+* **HTML** `syntax.html`
 ```
 * Resouce
 * Tags  
 ```
-* **CSS** `basic.css`
+* **CSS** `syntax.css`
 ```diff
 * Resouce
 * HTML link
@@ -71,9 +64,7 @@ Here saves codes learnt in different languages.
 * Case 1: Life in the Wild (flexbox and etc..)
 ! Case 2/3: CSS Grid (+ template)
 ```
-* **C**
-* **SQL**
-* **R** `/R exercises`
+* **R** `/Machine Learning with R`
 ```
 * Basic syntax
 * Exercise & Lecture
@@ -82,5 +73,6 @@ Here saves codes learnt in different languages.
 * Advanced algorithms
 * sentiment analysis
 ```
-* **HTML**
+
+### CS50_by
 
