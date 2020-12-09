@@ -1,10 +1,11 @@
 # CS50 🕹
-<img src="https://online-learning.harvard.edu/sites/default/files/styles/social_share/public/course/cs50x-original.jpg?itok=kR_JV8DW" width="350">
 
 > Instructor: David J.Malan 🕵  
 > By: Havard University through Edx 🌏
 
-<img src="certificate" width="350">
+<img src="https://online-learning.harvard.edu/sites/default/files/styles/social_share/public/course/cs50x-original.jpg?itok=kR_JV8DW" width="500"> <img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/CS50.png" width="500">
+
+
 
 This folder saves lecture code, homework code, project code in CS50.  
 Below is the main content of the course concluded by me after I finished the course on Edx.
