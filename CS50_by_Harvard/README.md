@@ -3,7 +3,7 @@
 > Instructor: David J.Malan 🕵  
 > By: Havard University through Edx 🌏
 
-<img src="https://online-learning.harvard.edu/sites/default/files/styles/social_share/public/course/cs50x-original.jpg?itok=kR_JV8DW" width="500"> <img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/CS50.png" width="500">
+<img src="https://online-learning.harvard.edu/sites/default/files/styles/social_share/public/course/cs50x-original.jpg?itok=kR_JV8DW" width="440"> <img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/CS50.png" width="300">
 
 
 
