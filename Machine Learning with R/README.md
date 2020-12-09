@@ -1,3 +1,7 @@
+# Machine Learning in Business Analytics
+<img src="certificate" width="350">
+
+
 ### Basic Commands
 ```
 1）file.choose（导入数据

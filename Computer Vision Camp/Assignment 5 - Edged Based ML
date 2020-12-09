@@ -1,0 +1,63 @@
+Q1: What are the real-world use cases of Edged based Machine Learning? What are a few Edge-based Machine Learning Platforms?
+
+ 
+
+Edge-based Machine Learning means that, instead of being processed in algorithms located in the cloud, data is processed locally in algorithms stored on a hardware device. With the arrival of powerful, low-energy consumption Internet of Things devices, computations can now be executed on edge devices such as robots themselves. This has given rise to the era of deploying advanced machine learning methods such as convolutional neural networks, at the edges of the network for “edge-based” ML.
+
+
+
+ It reduces latency, conserves bandwidth, improve privacy and enables smarter applications in the real world like below:
+
+ 1) Autonomous Vehicles
+
+Response time is extremely critical for autonomous vehicles because a large enough latency could significantly increase the risk of accidents. Machine learning applications are being trained both locally in the car itself and at the edge to cut back on bandwidth and latency to process data, which can rack up to about 4,000 GB a day – equivalent to 3 billion peoples' worth of data, in real-time. The ability for these vehicles to process data instantly can be life-saving as automated decision-making based on road conditions or unexpected instances can keep passengers out of harm’s way.
+
+
+
+ 2) Health Care
+
+Intensive care is an area that could benefit from edge-based ML, where real-time data processing and decision making are important for closed-loop systems that must maintain critical physiological parameters, such as blood pressure within specific range of values. Besides, wearable devices collect a lot of data about our activity, location, heart rate, among other things. This information can be correlated with health, stress levels, diet, and potentially alert wearers to a potential health issue before it becomes critical.
+
+
+
+3) Surveillance and Monitoring
+
+Deep Learning-enabled smart cameras could locally process captured images to identify and track multiple objects and people, detecting suspicious activities directly on the edge node. These smart cameras minimize communication with the remote servers by only sending data on a triggering event, also reducing remote processing and memory requirements. Intruder monitoring for secure homes and monitoring of elderly people are typical applications.
+
+ 
+
+4) Product Selling
+
+Edge-based machine learning can be used to improve shopping and advertising through expression analysis. An individual’s emotional reaction can provide clues to their degree of acceptance of a service, like/dislike of various products shown on the shelves in a shop, which can be used to understand and modulate the type and the amount of information delivered. Besides, some cutting-edge stores are starting to offer the ability to do things like try on clothes or makeup virtually by leveraging cameras and augmented reality-type applications to let customers quickly see how different look on them via monitors or smart mirrors. These new services are enabling consumers to find what they want and stores to complete sales more quickly than they have in the past.
+
+
+
+ 
+
+Edge-based Machine Learning Platforms:
+
+
+Edge Devices/Platforms	ML Framework	Characteristics
+Intel NCS2	TensorFlow, Caffe	It's a system-on-chip system with a dedicated Neural Compute Engine for accelerating deep-learning inferences.
+Raspberry Pi 4	TensorFlow, TensorFlow Lite	It's a single-board computer and ML algorithms can be accelerated if using a USB 3.0 port.
+AWS DeepLens	Apache MXNet, TensorFlow, Caffe	It's essentially a small Ubuntu- and Intel Atom-based computer with a built-in camera that's powerful enough to easily run and evaluate visual machine learning models.
+Google Coral	TensorFlow Lite, AutoML Vision Edge	It's a fully integrated system for ML applications and is capable of performing 4 trillion operations per second.
+
+For the frameworks:
+
+1) TensorFlow Lite:         It's a set of tools to help developers run TensorFlow models on mobile, embedded, and IoT devices. 
+
+2) Core ML 3:                  It takes advantage of the CPU, GPU, and Neural Engine to provide maximum performance and efficiency. 
+
+3) Apache MXNet:          It's a fast and scalable training and inference framework with a concise API for machine learning.
+
+4) PyTorch Mobile:          It's a framework that is easier to learn and lighter to work with.
+
+________________________________________________________________________
+
+Q2: I Used Core ML 3 to deploy an image classification model on iOS device (iPhone)
+
+VIDEO: CoreML.mp4
+
+Prerequisite: iOS 12.0 or above, Xcode 10.0 or above
+My Model: Resnet50, chose from Core ML Models

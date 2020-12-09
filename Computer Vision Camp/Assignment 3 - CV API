@@ -1,0 +1,36 @@
+Q: What are the pros and cons of using computer vision APIs to solve real-world problems?
+
+Computer Vision API, aka Computer Vision Application Programmatic Interface, is like a bigger Russian doll relatively to TensorFlow, Keras, and Ludwig in dealing with computer vision problems. It provides developers with access to advanced algorithms for processing images, and is widely used in industrial world. Many tech giants have created their own APIs like Microsoft Azure Face API, AWS Rekognition, and etc. However, all of them demonstrate both some pros and cons, just as follows:
+
+Pros:
+
+
+> Great Speciality
+
+With the rapid growth in consumers’ needs, Computer Vision APIs make life more convenient when being applied to different, specific occasions like online shopping, traffic management, autonomous vehicles and etc. Basically, API is like a messenger who takes a request from users and returns responses back to users. An complete application usually has many APIs to handle different requests. For example, E-commerce websites like Alibaba enables customers to do purchase through face recognition on screens without taking out wallets or repeatedly typing in security codes of credit cards. Also, its product detection system is based on another API which serves as helping consumers to searching for similar products by inputing images from users. When different part of functions can be achieved through special APIs, it facilitates real-world life.
+
+> High Flexibility
+
+Since API is more like the outer layer of Russian dolls, compared to TensorFlow, which is something more low-level, it is relatively simple to program so it has high flexibility that helps developers to make improvements in Computer Vision when standing on the shoulders of giants. Undoubtedly, APIs are contributing to solving real-world problems because there are a lot of demand needing to be satisfied, but business costs should also be fairly considered at the same time. By applying computer APIs, business owners can provided their services without investing a large amount of money to design algorithms from scratch. In that way, real-world problems could be solved more quickly instead of always waiting for something low-level to be built.
+
+Cons:
+
+
+> High Abstraction
+
+Although Computer Vision APIs are flexible, there’s a trade-off that it’s very abstract, because we can’t get underneath the hood. If we solve a real-world problem using
+
+APIs, it could be pretty hard to get the perfect solution, and even harder to optimize it. It’s indeed convenient to use for the very first time, but it might be inconvenient to maintain later. For personal users, it’s likely to be deeply relied on them and lose independent thinking. For those business owners, the costs could be high if their products were mainly powered by APIs, and they usually lack pricing power.
+
+> High Restrictions
+
+The choices for APIs are still limited, even if many tech giants have published their products. If we aim to no matter win the market as a business owner, or make a competitive project as a project owner, using APIs should not always be the perfect option. Every single API gets some advantages and disadvantages, thus there are always restrictions. For example, AWS Rekognition can analyze 5,000 images per month, but the maximum image size that can be stored as an Amazon S3 object is limited to 15 MB. IBM Watson can process unstructured data, but has high maintenance cost.
+
+Q: Create and share a Colab notebook that uses a cloud computer vision API.
+
+
+This time I used Microsoft Azure Face API to detect faces in an image.
+
+Colab Link: https://colab.research.google.com/drive/1FUZ0WXrWkQGeHhgsuM2XgHv9jCpG2ley?usp=sharing
+
+Demo Video: DEMO.mp4

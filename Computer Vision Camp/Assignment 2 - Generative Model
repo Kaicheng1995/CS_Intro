@@ -1,0 +1,21 @@
+Q1：What are some real-world use cases of generative modeling?
+
+ 
+
+A generative model is a statistical model of the joint probability distribution on p(X,Y), which can generate new data instances. There are three types of generative models, and GANs are one kind of them which has many real-world applications.
+
+1）Tasks like Image-to-Image Translation can be achieved using GANs. We can do the translation of satellite photographs to Google Maps, in order to provide navigation service for car drivers. The translation of photography to artistic painting achieved by GANs is a common application in mobile apps for processing and filtering images.
+
+2）Text-to-Image Translation is another important field based on GANs. By inputting text descriptions of simple objects like flowers and birds, we can generate realistic-looking photographs through GANs. This technique can be widely used for generating illustration images in a more efficient way, and also it will help people get possible information derived from imagination without basing on the limitation given by existing images.
+
+3）Generating examples for image dataset is also actually a common use in GANs. For example, GANs were used to generate new plausible examples for the MNIST handwritten digit dataset and Toronto Face Database. In this way, it really contributes to the development of deep learning algorithms.
+
+4)  Face Front View Generation is another practical example based on GANs. We can generate photographs of human faces given photographs taken at an angle. This idea can be very useful occasions that need face verification or face identification system, for example, helping police to recognize criminals.
+
+ 
+
+
+Q2：Explain how game-playing machines can use computer vision to win.
+
+
+When we are playing games, we are making actions or steps. In order to achieve the desired behavior of an agent that learns from its mistakes and improves its performance, we can use reinforcement learning, and here is where computer vision comes into play. Reinforcement learning can be described with an agent that takes actions in an environment in order to maximize its cumulative reward. The underlying idea is very similar to the humans in real life, agents in RL algorithms are incentivized with punishments for bad actions and rewards for good ones. For example, we use algorithms like Deep Q-Learning and Double Q-Learning for learning better decisions, instead of making random actions. Just as what I did in my assignment this week, I used Deep Q-Network to train the model.

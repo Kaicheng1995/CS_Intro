@@ -1,0 +1,75 @@
+Q1:  How is AutoML impacting Data Science now, and how will it impact it in the future?
+
+ 
+
+PART 1
+
+Automated Machine Learning (aka AutoML) is currently one of the explosive subfields within Data Science because it provides methods and processes to make Machine learning available for non-machine Learning experts, to improve the efficiency of Machine Learning and to accelerate research on Machine Learning.
+
+
+
+ 1 ) Minimize Human Interaction
+
+As the image above, AutoML automatically furnishes the labeled training data as input and outputs the optimized model. It eliminates manual steps such as feature engineering and model selection and tuning. Automation on this front opens the door to developers with different classes, and offer businesses a competitive advantage with minimum investments.
+
+2 ) Improve Computational Efficiency
+
+AutoML improves the efficiency of finding optimal solutions to machine learning problems. For instance, AutoML can optimize both model and associated hyperparameters in a single step. It learns to narrow the search for good models to a subset of candidate models based on characteristics of the features, and optimizes the hyperparameters for each of those candidate models efficiently.
+
+3 ) Accelerate Research on Data Science
+
+AutoML is actually an enabling technology that helps accelerate and democratize the data science process. It provides the acceleration and automation necessary for data scientists to be more productive, and give them the ability to scale their work. It automates repetitive and tedious tasks that eat up a lot of data scientists’ time. In this way, data scientists can iterate faster, try more features and algorithms, and tackle more priority research projects.
+
+     
+
+PART 2
+
+
+
+For the future impact of AutoML on Data Science:
+
+ 
+
+1 ) Will Not Replace Data Scientists
+
+Although the advent of AutoML is likely to threaten the role of data scientists in the future, since it allows users to discover and create features for data science processing automatically, it will not replace the role of the data scientist. The purpose is to assist data scientists and free them from the burden of repetitive, and less demanding tasks, so they can invest their time on tasks that are more challenging, creative, and harder to automate. As shown in the figure above, business understanding, data acquisition, and preparation should also be important skills to demonstrate their talent and value.
+
+ 
+
+2 ) Has Limitations but Getting More Powerful
+
+Current AutoML products still have various limitations and constraints. For instance, there is no successful measure to compare algorithms directly for unsupervised learning, because it does not rely on labeled datasets. Most AutoML systems can work with structured data, and unstructured data such as text and images, however, more complex data types like web data are not included in current products. With the fast growth of data science, AutoML will be more powerful in these areas.
+
+Q2. Using AutoML Vision from the Google Cloud Platform to train a model.
+
+
+VIDEO: H4DEMO.mp4
+
+In this project, I completed a one-label image classification problem with the images data containing natural scenes around the world. The dataset collected from Kaggle is called Intel Image Classification, it includes around 25k images of size 150x150 distributed under 6 categories.
+
+My Workflow:
+
+Data Acquisition and Import
+Train Model
+Evaluate Result
+Test and Use
+These are buildings, forests, glaciers, mountains, sea, street, as the figures below. To reduce computational complexity, I only used 50 images of each category, and it is divided into 3 parts with ratio 8:1:1, for the training set, validation set, and test set.
+
+image.png   image.png   image.png
+
+image.png   image.png   image.png
+
+Train Model
+I got the average precision 0.92, and the value of precision and recall is 86.67%. It‘s not as high as what I expected before I run the model, but I seem to have figured out why this happened.
+
+image.png 
+
+Evaluate Result
+As you can see some images can actually be considered as two scenes (glacier and mountain). Thus, one-label classification might get error, lowering the prediction accuracy. 
+
+image.png image.png
+
+   
+
+Test and Use
+Finally, I deployed the model and upload 8 images to do testing. The result is 100% accurate, as you can see in the video.
