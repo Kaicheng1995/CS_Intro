@@ -1,5 +1,8 @@
 # Machine Learning in Business Analytics
-<img src="certificate" width="350">
+<img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/ML.jpeg" width="350">
+
+> Instructor: Xinlong Li 🕵  
+> By: Nanyang Technological University 🌏
 
 
 ### Basic Commands

@@ -1,7 +1,7 @@
 # Web Development Course
 
-<img src="certificate" width=400>
-<img src="certificate" width=400>
+<img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/Web.png" width=400>
+<img src="https://github.com/Kaicheng1995/CS_Intro/blob/master/Certificates/React.jpg" width=400>
 
 ## ***Life in the wild***
 <img src="https://github.com/Kaicheng1995/Languages/blob/master/WebCases/img/wild.png" width=400>
